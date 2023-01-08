@@ -1,6 +1,7 @@
 
 import Sliders from './Sliders';
 import useFetch from './useFetch';
+import Zemljevid from './Zemljevid';
 
 const Home = () => {
 
@@ -8,10 +9,15 @@ const Home = () => {
 
     return ( 
         <div className="home">
-            {error && <div>{error}</div>}
-            {isPending && <div>Loading...</div>}
-            {data && <Sliders datas={data} title="Vse postaje 1997-01!" />}
-            
+            <div className='zgornji'>
+                <Zemljevid />
+                <div className='legdiv'>
+                    <div className='legenda' />
+                </div>
+            </div>
+            <div className='sliderji'>
+                {data && <Sliders datas={data} title="Vse postaje 1997-01!" />}
+            </div>
         </div>
      );
 }
