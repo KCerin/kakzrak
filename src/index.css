@@ -29,7 +29,7 @@
   color: #f1356d;
 }
 .content {
-  max-width: 600px;
+  max-width: 300px;
   margin: 40px auto;
   padding: 20px;
 }
@@ -48,3 +48,4 @@
   color: #f1356d;
   margin-bottom: 8px;
 }
+

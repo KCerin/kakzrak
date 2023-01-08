@@ -1,5 +1,5 @@
 {
-    "1997-01": [
+    "1997-1": [
       {
         "obcina": "Ljubljana",
         "pm10": 25,
@@ -10,6 +10,20 @@
         "obcina": "Maribor",
         "pm10": 30,
         "so2": 15,
+        "id": 2
+      }
+    ],
+    "1997-2": [
+      {
+        "obcina": "Ljubljana",
+        "pm10": 1,
+        "so2": 1,
+        "id": 1
+      },
+      {
+        "obcina": "Maribor",
+        "pm10": 1,
+        "so2": 1,
         "id": 2
       }
     ]

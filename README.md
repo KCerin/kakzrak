@@ -14,6 +14,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `npm install`
+
+Update and download dependencies
+
+### `npx json-server --watch data/db.json --port 8000`
+
+Runs the database with data
+
+
+### `sfc`
+new empty component
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
