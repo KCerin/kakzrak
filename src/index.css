@@ -17,20 +17,25 @@
   justify-content: center;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
+  width: 95%;
 }
 .navbar h1 {
   color: #f1356d;
 }
+.links{
+  margin-left: auto;
+}
+
 .content {
   display: flex;
   padding: 20px 20px 0px 20px;
-  background-color: darkblue;
+  background-color: #FFE3AC;
   justify-content: center
 }
 
 
 .details{
-  background-color: red;
+  background-color: #FFBAAC;
   display: flex;
   flex-grow: 1;
   width: 30px;
@@ -74,11 +79,13 @@ g:hover{
 /* Sliderji */
 .sliderji{
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 20%;
+
   background-color: wheat;
 }
-.blog-preview h2 {
+.blog-list{
+  width: 80%;
   font-size: 20px;
-  color: #f1356d;
-  margin-bottom: 8px;
 }

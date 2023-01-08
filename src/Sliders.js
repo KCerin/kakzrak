@@ -29,15 +29,16 @@ const Sliders = ({ datas, title}) => {
 
     return ( 
         <div className="blog-list">
+            {/*
             <h2>{ title }</h2>
             {datas.map((data) => (
                 <div className="blog-preview" key={ datas.id }>
                     <h2>{ data.obcina }</h2>
                     <p>PM10: { data.pm10},  SO2: { data.so2 }</p>
                 </div>
-            ))}
-            <Slider min={1997} max={2022} defaultValue={1997} aria-label="Default" valueLabelDisplay="auto" marks={marksL}/>
-            <Slider min={1} max={12} defaultValue={2000} track={false} marks={marksM}/>
+            ))}*/}
+            <Slider min={1997} max={2022} defaultValue={1997} size="big" aria-label="Default" valueLabelDisplay="auto" marks={marksL}/>
+            <Slider min={1} max={12} defaultValue={2000} size="big" track={false} marks={marksM}/>
         </div>
      );
 }
