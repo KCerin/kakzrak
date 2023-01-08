@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import BlogList from './BlogList';
 import useFetch from './useFetch';
+import Zemljevid from './Zemljevid';
 
 const Home = () => {
 
@@ -8,9 +9,15 @@ const Home = () => {
 
     return ( 
         <div className="home">
-            {error && <div>{error}</div>}
-            {isPending && <div>Loading...</div>}
-            {data && <BlogList datas={data} title="All Blogs!" />}
+            <div className='zgornji'>
+                <Zemljevid />
+                <div className='legdiv'>
+                    <div className='legenda' />
+                </div>
+            </div>
+            <div className='sliderji'>
+                <p>Pendazo</p>
+            </div>
         </div>
      );
 }
