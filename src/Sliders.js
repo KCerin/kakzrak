@@ -25,6 +25,10 @@ const Sliders = ({ datas, title}) => {
         { value: 2015, label: '2015' },
         { value: 2020, label: '2020' },
         { value: 2022, label: '2022' }];
+
+    const vrednost = (e, value) => {
+        console.log(value);
+    }
     
 
     return ( 
@@ -36,9 +40,10 @@ const Sliders = ({ datas, title}) => {
                     <h2>{ data.obcina }</h2>
                     <p>PM10: { data.pm10},  SO2: { data.so2 }</p>
                 </div>
-            ))}*/}
-            <Slider min={1997} max={2022} defaultValue={1997} size="big" aria-label="Default" valueLabelDisplay="auto" marks={marksL}/>
-            <Slider min={1} max={12} defaultValue={2000} size="big" track={false} marks={marksM}/>
+            ))}
+            */}
+            <Slider min={1997} max={2022} defaultValue={1997} size="big" aria-label="Default" valueLabelDisplay="auto" marks={marksL} onChangeCommitted={vrednost}/>
+            <Slider min={1} max={12} defaultValue={2000} size="big" track={false} marks={marksM} onChangeCommitted={vrednost}/>
         </div>
      );
 }
