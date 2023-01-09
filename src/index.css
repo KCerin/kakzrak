@@ -1,14 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+/* BARVNA PALETA */
+/* #F8EDE3  #DFD3C3 #D0B8A8 #85586F*/
 
 /* base styles */
 * {
   margin: 0;
+  padding: 0;
   font-family: "Quicksand";
-  color: #333;
+  color: #85586F;
+  border-radius: 15px;
 }
+
 .App {
   display: flex;
   flex-direction: column;
+  background-color: #F8EDE3;;
 }
 
 .navbar {
@@ -16,62 +22,96 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
-  width: 95%;
+  border-bottom: 1px solid #D0B8A8;
+  border-radius: 0%;
+  width: 98%;
 }
+
 .navbar h1 {
-  color: wheat;
-  text-shadow: 1px 1px black;
+  color: #85586F;
+  padding-left: 5px;
 }
+
 .links {
   margin-left: auto;
 }
 
+.info:hover{
+  cursor:pointer;
+}
+
 .content {
   display: flex;
-  padding: 20px 20px 0px 20px;
-  background-color: #bbbbbb;
+  padding: 20px 20px 0px 0px;
+  background-color: #D0B8A8;
   justify-content: center;
-  border: 1px solid black;
+  border: 1px solid #85586F;
   box-shadow: 3px 3px;
+  height:92vh;
+  border-radius: 0px;
 }
 
+/* Primerjave */
 .details {
   display: flex;
+  flex-wrap: wrap; 
   flex-grow: 1;
   width: 10%;
-  font-size: 1;
+  justify-content: space-evenly;
+}
+
+.podrobnosti {
+  display: flex;
+  flex-wrap: wrap;
+  background: #DFD3C3;
+  border: solid #85586F;
+  height: 80%;
+  width: 45%;
+  border-width: 2px;
+  box-shadow: 3px 3px;
   font-size: 24px;
   font-weight: bold;
+  justify-content: center;
 }
 
-.levi {
-  display: flex;
-  background: wheat;
-  border: solid black;
-  height: 80%;
-  width: 45%;
-  border-width: 2px;
-  box-shadow: 3px 3px;
-  margin-right: 2%;
-  margin-left: 2%;
+.naslov{
+  padding: 10px;
 }
 
-.desni {
+.izbrisi{
   display: flex;
-  background: wheat;
-  border: solid black;
-  height: 80%;
-  width: 45%;
-  border-width: 2px;
-  box-shadow: 3px 3px;
+  align-self:flex-end;
+  justify-content: center;
+  padding-top: 10%;
+  height: 10vh;
+  width: 90%;
+  margin-bottom: 13px;
+  box-shadow: 0 7px rgb(129, 113, 125);
+  cursor:pointer;
+  border-color: #85586F;
+}
+.izbrisi:hover{
+  background-color: #D0B8A8;
+  border-color: #85586F;
+}
+.izbrisi:active{
+  border-color: #85586F;
+  background-color: #D0B8A8;
+  box-shadow: 0 5px rgb(78, 63, 74);
+  transform: translateY(4px);
+}
+
+.razlaga{
+  font-size: 24px;
+  display: flex;
+  padding-left: 20px;
 }
 
 .home {
   display: flex;
   flex-direction: column;
-  background-color: #333;
-  border: solid black;
+  background-color: #69515e;
+  border: solid #85586F;
   border-width: 2px;
   box-shadow: 3px 3px;
   flex-grow: 3;
@@ -86,18 +126,19 @@
 g {
   display: flex;
 }
-
 g:hover {
-  fill: #333;
+  fill:rgba(255,255,255,0.5);
+  cursor:pointer;
 }
+
 /* Legenda */
 .legdiv {
   display: flex;
   padding: 20px;
 }
-
 .legenda {
   display: flex;
+  flex-direction: column;
   background: linear-gradient(
     0deg,
     #acffba,
@@ -109,7 +150,21 @@ g:hover {
   width: 15px;
   border: 2px solid lightgray;
   border-radius: 50px;
+  margin-right: 80px;
 }
+.zelo{
+  display: flex;
+  padding-left: 20px;
+  color: white;
+}
+.malo{
+  display: flex;
+  align-self: flex-start;
+  padding-left: 20px;
+  margin-top: 570px;
+  color: white;
+}
+
 /* Sliderji */
 .sliderji {
   display: flex;
@@ -117,19 +172,27 @@ g:hover {
   align-items: center;
   height: 20%;
 
-  background-color: wheat;
+  background-color: #DFD3C3;
 }
 .blog-list {
   width: 80%;
   font-size: 20px;
 }
+
 /* Popup */
 .popup-content {
   margin: 20% 0% 0% 30%;
-  background: rgb(255, 255, 255);
+  background: #F8EDE3;
   height: 30%;
   width: 30%;
   padding: 5px;
-  border: 5px solid black;
-  border-radius: 15px;
+  border: 5px solid #85586F;
+}
+.popup-content h1{
+  padding: 10px;
+  text-align: justify;
+}
+.popup-content p{
+    padding: 10px;
+    text-align: justify;
 }

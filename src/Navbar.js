@@ -9,15 +9,19 @@ const Navbar = () => {
         <nav className="navbar">
             <h1>kakZrak Slovenija</h1>
             <div className="links">
-            <Popup arrow="false"
+            <Popup 
                 trigger={open => (
-                    <InfoOutlinedIcon>Trigger - {open ? 'Opened' : 'Closed'}</InfoOutlinedIcon>
+                    <InfoOutlinedIcon className='info'>Trigger - {open ? 'Opened' : 'Closed'}</InfoOutlinedIcon>
                 )}
+                arrow="false"
                 offsetX="10px"
                 position="left center"
                 closeOnDocumentClick
                 >
-                <p> KakZrak je stran, ki prikaže kakovost zraka v Sloveniji skozi čas </p>
+                <h1>Kaj je kakZrak?</h1>
+                <p> KakZrak je portal, na katerem lahko preverite kakovost zraka med posameznimi občinami v Sloveniji. S pomočjo drsnikov se lahko premikate skozi čas in ob kliku na posamezno občino, imate vpogled v natačnejše podatke o kakovosti zraka (PM10 in SO2).</p>
+                <h1>Kdo smo?</h1>
+                <p>Portal smo ustvarjali Edis Fejzoski, Enes Fejzoski in Klemen Čerin</p>
             </Popup>
             </div>
         </nav>

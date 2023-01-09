@@ -46,7 +46,10 @@ const Home = () => {
             <div className='zgornji'> 
                 <Zemljevid slData={sl}/>
                 <div className='legdiv'>
-                    <div className='legenda' />
+                    <div className='legenda'>
+                       <p className='zelo'>Zelo onesnaženo</p>
+                       <p className='malo'>Malo onesnaženo</p>
+                    </div>
                 </div>
             </div>
             <div className='sliderji'> 
