@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 /* base styles */
 * {
@@ -6,9 +6,9 @@
   font-family: "Quicksand";
   color: #333;
 }
-.App{
+.App {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .navbar {
@@ -20,64 +20,99 @@
   width: 95%;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: wheat;
+  text-shadow: 1px 1px black;
 }
-.links{
+.links {
   margin-left: auto;
 }
 
 .content {
   display: flex;
   padding: 20px 20px 0px 20px;
-  background-color: #FFE3AC;
-  justify-content: center
+  background-color: #bbbbbb;
+  justify-content: center;
+  border: 1px solid black;
+  box-shadow: 3px 3px;
 }
 
-
-.details{
-  background-color: #FFBAAC;
+.details {
   display: flex;
   flex-grow: 1;
-  width: 30px;
-  font-size: 30;
+  width: 10%;
+  font-size: 1;
+  font-size: 24px;
+  font-weight: bold;
 }
-.home{
+
+.levi {
+  display: flex;
+  background: wheat;
+  border: solid black;
+  height: 80%;
+  width: 45%;
+  border-width: 2px;
+  box-shadow: 3px 3px;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.desni {
+  display: flex;
+  background: wheat;
+  border: solid black;
+  height: 80%;
+  width: 45%;
+  border-width: 2px;
+  box-shadow: 3px 3px;
+}
+
+.home {
   display: flex;
   flex-direction: column;
   background-color: #333;
+  border: solid black;
+  border-width: 2px;
+  box-shadow: 3px 3px;
   flex-grow: 3;
   width: 100px;
 }
 
-.zgornji{
+.zgornji {
   display: flex;
   height: 80%;
 }
 /* Zemljevid */
-g{
+g {
   display: flex;
   fill: #ffffff;
 }
 
-g:hover{
+g:hover {
   fill: #333;
 }
 /* Legenda */
-.legdiv{
+.legdiv {
   display: flex;
   padding: 20px;
 }
 
-.legenda{
+.legenda {
   display: flex;
-  background: linear-gradient(0deg, #ACFFBA, #C8FFAC, #F1FFAC, #FFE3AC, #FFBAAC);
+  background: linear-gradient(
+    0deg,
+    #acffba,
+    #c8ffac,
+    #f1ffac,
+    #ffe3ac,
+    #ffbaac
+  );
   width: 15px;
   border: 2px solid lightgray;
   border-radius: 50px;
-  
 }
 /* Sliderji */
-.sliderji{
+.sliderji {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +120,17 @@ g:hover{
 
   background-color: wheat;
 }
-.blog-list{
+.blog-list {
   width: 80%;
   font-size: 20px;
+}
+/* Popup */
+.popup-content {
+  margin: 20% 0% 0% 30%;
+  background: rgb(255, 255, 255);
+  height: 30%;
+  width: 30%;
+  padding: 5px;
+  border: 5px solid black;
+  border-radius: 15px;
 }
