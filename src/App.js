@@ -7,8 +7,8 @@ import { useState } from 'react';
 function App() {
 
   const [primerjava, setPrimerjava] = useState([
-    { src: null, obcina: null, pm10: null, so2: null },
-    { src: null, obcina: null, pm10: null, so2: null }
+    { src: null, datum:null, obcina: null, pm10: null, so2: null },
+    { src: null, datum:null, obcina: null, pm10: null, so2: null }
   ]);
 
 

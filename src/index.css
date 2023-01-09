@@ -87,8 +87,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 15vh;
   width: 90%;
+  margin-bottom: 13px;
+  background-color: white;
+  box-shadow: 0 3px rgb(129, 113, 125);
+  border: solid 2px #85586F;
+  border-color: #85586F;
+}
+
+.infowrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 100%;
   margin-bottom: 13px;
   background-color: white;
   box-shadow: 0 3px rgb(129, 113, 125);
