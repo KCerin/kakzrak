@@ -56,7 +56,6 @@
 /* Zemljevid */
 g{
   display: flex;
-  fill: #ffffff;
 }
 
 g:hover{
