@@ -155,14 +155,15 @@ g:hover {
 .zelo{
   display: flex;
   padding-left: 20px;
-  color: white;
+  color: #F8EDE3;
+  margin-bottom: auto;
 }
 .malo{
   display: flex;
   align-self: flex-start;
   padding-left: 20px;
-  margin-top: 570px;
-  color: white;
+  margin-top: auto;
+  color: #F8EDE3;
 }
 
 /* Sliderji */
