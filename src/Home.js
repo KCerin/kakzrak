@@ -16,6 +16,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='sliderji'>
+                    {error && <div>{error}</div>}
                 {data && <Sliders datas={data} title="Vse postaje 1997-01!" />}
             </div>
         </div>
