@@ -36,9 +36,6 @@
   margin-left: auto;
 }
 
-.info:hover{
-  cursor:pointer;
-}
 
 .content {
   display: flex;
@@ -63,6 +60,7 @@
 .podrobnosti {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   background: #DFD3C3;
   border: solid #85586F;
   height: 80%;
@@ -72,20 +70,40 @@
   font-size: 24px;
   font-weight: bold;
   justify-content: center;
+  align-items: center;
 }
 
 .naslov{
   padding: 10px;
 }
 
+.dpodatki{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.prostorzasliko{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 90%;
+  margin-bottom: 13px;
+  background-color: white;
+  box-shadow: 0 3px rgb(129, 113, 125);
+  border: solid 2px #85586F;
+  border-color: #85586F;
+}
+
 .izbrisi{
   display: flex;
-  align-self:flex-end;
   justify-content: center;
-  padding-top: 10%;
+  align-items: center;
   height: 10vh;
   width: 90%;
   margin-bottom: 13px;
+  margin-top: auto;
   box-shadow: 0 7px rgb(129, 113, 125);
   cursor:pointer;
   border-color: #85586F;

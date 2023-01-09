@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 
 const Details = ({setPrimerjava, primerjava}) => {
 
+
     useEffect(() => {
         console.log(primerjava);
     },[primerjava]);
@@ -26,14 +27,17 @@ const Details = ({setPrimerjava, primerjava}) => {
         <div className="details">
             <div className="podrobnosti">
                 <p className="naslov">Prva občina</p>
-                    <div>{/*primerjava[0].src && primerjava[0].src */}</div>
-                    
-
-                <button className="izbrisi" onClick={izbrisi0}><DeleteIcon fontSize="large" className='info'></DeleteIcon></button>
+                <div className='prostorzasliko'></div>
+                <div className='dpodatki'>
+                    <p className="naslov">Ime občine:</p>
+                    <p className="naslov">PM10:</p>
+                    <p className="naslov">SO2:</p>
+                </div>
+                <button className="izbrisi" onClick={izbrisi0}><DeleteIcon fontSize="large"></DeleteIcon></button>
             </div>
             <div className="podrobnosti">
                 <p className="naslov">Druga občina</p>
-                <button className="izbrisi" onClick={izbrisi1}><DeleteIcon fontSize="large" className='info'></DeleteIcon></button>
+                <button className="izbrisi" onClick={izbrisi1}><DeleteIcon fontSize="large"></DeleteIcon></button>
             </div>
             <p className="razlaga">
                 PM10 je prah, ki je prisoten v zraku v določenem obdobju. <br/> SO2 je žveplov dioksid, ki je prisoten v zraku v določenem obdobju.
