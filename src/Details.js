@@ -1,7 +1,12 @@
 const Details = () => {
     return ( 
         <div className="details">
-            <p>GEeee</p>
+            <div className="levi">
+                <p>Prva občina</p>
+            </div>
+            <div className="desni">
+                <p>Druga občina</p>
+            </div>
         </div>
      );
 }
