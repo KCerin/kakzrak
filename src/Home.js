@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 import Zemljevid from './Zemljevid';
 
-const Home = () => {
+const Home = ({setPrimerjava, primerjava}) => {
 
     var [sl, setSl] = useState([1997, 1]);
 
@@ -44,7 +44,7 @@ const Home = () => {
     return ( 
         <div className="home">
             <div className='zgornji'> 
-                <Zemljevid slData={sl}/>
+                <Zemljevid slData={sl} setPrimerjava={setPrimerjava} primerjava={primerjava}/>
                 <div className='legdiv'>
                     <div className='legenda'>
                        <p className='zelo'>Zelo onesnaženo</p>
