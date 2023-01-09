@@ -1,30 +1,159 @@
 {
-    "1997-1": [
-      {
-        "obcina": "Ljubljana",
-        "pm10": 25,
-        "so2": 12,
-        "id": 1
-      },
-      {
-        "obcina": "Maribor",
-        "pm10": 30,
-        "so2": 15,
-        "id": 2
-      }
-    ],
-    "1997-2": [
-      {
-        "obcina": "Nova Gorica",
-        "pm10": 1,
-        "so2": 1,
-        "id": 1
-      },
-      {
-        "obcina": "Brežice",
-        "pm10": 1,
-        "so2": 1,
-        "id": 2
-      }
-    ]
+  "1997-1":[
+		{ "obcina": "Trbovlje", "pm10": "", "so2": 106, "id": 0 },
+		{ "obcina": "Zagorje ob Savi", "pm10": "", "so2": 67, "id": 1 },
+		{ "obcina": "Velenje", "pm10": "", "so2": "", "id": 2 },
+		{ "obcina": "Maribor ", "pm10": "", "so2": 50, "id": 3 },
+		{ "obcina": "Celje", "pm10": "", "so2": 72, "id": 4 },
+		{ "obcina": "Hrastnik", "pm10": "", "so2": 94, "id": 5 },
+		{ "obcina": "Šoštanj", "pm10": "", "so2": 36, "id": 6 },
+		{ "obcina": "Slovenj Gradec", "pm10": "", "so2": 71, "id": 7 },
+		{ "obcina": "Ajdovščina", "pm10": "", "so2": 173, "id": 8 },
+		{ "obcina": "Krško", "pm10": "", "so2": 41, "id": 9 },
+		{ "obcina": "Ljubljana", "pm10": "", "so2": 69, "id": 10 }
+	],
+	"1997-2":[
+		{ "obcina": "Trbovlje", "pm10": "", "so2": 61, "id": 0 },
+		{ "obcina": "Zagorje ob Savi", "pm10": "", "so2": 38, "id": 1 },
+		{ "obcina": "Velenje", "pm10": "", "so2": "", "id": 2 },
+		{ "obcina": "Maribor ", "pm10": "", "so2": 46, "id": 3 },
+		{ "obcina": "Celje", "pm10": "", "so2": 41, "id": 4 },
+		{ "obcina": "Hrastnik", "pm10": "", "so2": 29, "id": 5 },
+		{ "obcina": "Šoštanj", "pm10": "", "so2": 24, "id": 6 },
+		{ "obcina": "Slovenj Gradec", "pm10": "", "so2": 64, "id": 7 },
+		{ "obcina": "Ajdovščina", "pm10": "", "so2": 122, "id": 8 },
+		{ "obcina": "Krško", "pm10": "", "so2": 65, "id": 9 },
+		{ "obcina": "Ljubljana", "pm10": "", "so2": 38, "id": 10 }
+	],
+	"1997-3":[
+		{ "obcina": "Trbovlje", "pm10": "", "so2": 43, "id": 0 },
+		{ "obcina": "Zagorje ob Savi", "pm10": "", "so2": 42, "id": 1 },
+		{ "obcina": "Velenje", "pm10": "", "so2": "", "id": 2 },
+		{ "obcina": "Maribor ", "pm10": "", "so2": 24, "id": 3 },
+		{ "obcina": "Celje", "pm10": "", "so2": 35, "id": 4 },
+		{ "obcina": "Hrastnik", "pm10": "", "so2": 28, "id": 5 },
+		{ "obcina": "Šoštanj", "pm10": "", "so2": 18, "id": 6 },
+		{ "obcina": "Slovenj Gradec", "pm10": "", "so2": 27, "id": 7 },
+		{ "obcina": "Ajdovščina", "pm10": "", "so2": 40, "id": 8 },
+		{ "obcina": "Krško", "pm10": "", "so2": 88, "id": 9 },
+		{ "obcina": "Ljubljana", "pm10": "", "so2": 41, "id": 10 }
+	],
+	"1997-4":[
+		{ "obcina": "Trbovlje", "pm10": "", "so2": 37, "id": 0 },
+		{ "obcina": "Zagorje ob Savi", "pm10": "", "so2": 37, "id": 1 },
+		{ "obcina": "Velenje", "pm10": "", "so2": "", "id": 2 },
+		{ "obcina": "Maribor ", "pm10": "", "so2": 20, "id": 3 },
+		{ "obcina": "Celje", "pm10": "", "so2": 24, "id": 4 },
+		{ "obcina": "Hrastnik", "pm10": "", "so2": 22, "id": 5 },
+		{ "obcina": "Šoštanj", "pm10": "", "so2": 34, "id": 6 },
+		{ "obcina": "Slovenj Gradec", "pm10": "", "so2": 37, "id": 7 },
+		{ "obcina": "Ajdovščina", "pm10": "", "so2": 70, "id": 8 },
+		{ "obcina": "Krško", "pm10": "", "so2": 81, "id": 9 },
+		{ "obcina": "Ljubljana", "pm10": "", "so2": 30, "id": 10 }
+	],
+	"1997-5":[
+		{ "obcina": "Trbovlje", "pm10": "", "so2": 21, "id": 0 },
+		{ "obcina": "Zagorje ob Savi", "pm10": "", "so2": 25, "id": 1 },
+		{ "obcina": "Velenje", "pm10": "", "so2": "", "id": 2 },
+		{ "obcina": "Maribor ", "pm10": "", "so2": 15, "id": 3 },
+		{ "obcina": "Celje", "pm10": "", "so2": 16, "id": 4 },
+		{ "obcina": "Hrastnik", "pm10": "", "so2": 19, "id": 5 },
+		{ "obcina": "Šoštanj", "pm10": "", "so2": 46, "id": 6 },
+		{ "obcina": "Slovenj Gradec", "pm10": "", "so2": 45, "id": 7 },
+		{ "obcina": "Ajdovščina", "pm10": "", "so2": 106, "id": 8 },
+		{ "obcina": "Krško", "pm10": "", "so2": 58, "id": 9 },
+		{ "obcina": "Ljubljana", "pm10": "", "so2": 30, "id": 10 }
+	],
+	"1997-6":[
+		{ "obcina": "Trbovlje", "pm10": 44, "so2": 21, "id": 0 },
+		{ "obcina": "Zagorje ob Savi", "pm10": 44, "so2": 27, "id": 1 },
+		{ "obcina": "Velenje", "pm10": 38, "so2": 12, "id": 2 },
+		{ "obcina": "Maribor ", "pm10": 58, "so2": 9, "id": 3 },
+		{ "obcina": "Celje", "pm10": 36, "so2": 7, "id": 4 },
+		{ "obcina": "Hrastnik", "pm10": "", "so2": 18, "id": 5 },
+		{ "obcina": "Šoštanj", "pm10": "", "so2": 33, "id": 6 },
+		{ "obcina": "Slovenj Gradec", "pm10": "", "so2": 17, "id": 7 },
+		{ "obcina": "Ajdovščina", "pm10": "", "so2": 51, "id": 8 },
+		{ "obcina": "Krško", "pm10": "", "so2": 45, "id": 9 },
+		{ "obcina": "Ljubljana", "pm10": 39, "so2": 36, "id": 10 }
+	],
+	"1997-7":[
+		{ "obcina": "Trbovlje", "pm10": 38, "so2": 18, "id": 0 },
+		{ "obcina": "Zagorje ob Savi", "pm10": 41, "so2": 9, "id": 1 },
+		{ "obcina": "Velenje", "pm10": 32, "so2": 15, "id": 2 },
+		{ "obcina": "Maribor ", "pm10": 50, "so2": 9, "id": 3 },
+		{ "obcina": "Celje", "pm10": 34, "so2": 13, "id": 4 },
+		{ "obcina": "Hrastnik", "pm10": "", "so2": 13, "id": 5 },
+		{ "obcina": "Šoštanj", "pm10": "", "so2": 28, "id": 6 },
+		{ "obcina": "Slovenj Gradec", "pm10": "", "so2": 33, "id": 7 },
+		{ "obcina": "Ajdovščina", "pm10": "", "so2": 68, "id": 8 },
+		{ "obcina": "Krško", "pm10": "", "so2": 47, "id": 9 },
+		{ "obcina": "Ljubljana", "pm10": 37, "so2": 48, "id": 10 }
+	],
+	"1997-8":[
+		{ "obcina": "Trbovlje", "pm10": 52, "so2": 21, "id": 0 },
+		{ "obcina": "Zagorje ob Savi", "pm10": 39, "so2": 26, "id": 1 },
+		{ "obcina": "Velenje", "pm10": 45, "so2": 7, "id": 2 },
+		{ "obcina": "Maribor ", "pm10": 63, "so2": 12, "id": 3 },
+		{ "obcina": "Celje", "pm10": 46, "so2": 10, "id": 4 },
+		{ "obcina": "Hrastnik", "pm10": "", "so2": 10, "id": 5 },
+		{ "obcina": "Šoštanj", "pm10": "", "so2": 19, "id": 6 },
+		{ "obcina": "Slovenj Gradec", "pm10": "", "so2": 15, "id": 7 },
+		{ "obcina": "Ajdovščina", "pm10": "", "so2": 75, "id": 8 },
+		{ "obcina": "Krško", "pm10": "", "so2": 14, "id": 9 },
+		{ "obcina": "Ljubljana", "pm10": 42, "so2": 24, "id": 10 }
+	],
+	"1997-9":[
+		{ "obcina": "Trbovlje", "pm10": 53, "so2": 24, "id": 0 },
+		{ "obcina": "Zagorje ob Savi", "pm10": 54, "so2": 33, "id": 1 },
+		{ "obcina": "Velenje", "pm10": 50, "so2": 13, "id": 2 },
+		{ "obcina": "Maribor ", "pm10": 61, "so2": 14, "id": 3 },
+		{ "obcina": "Celje", "pm10": 48, "so2": 13, "id": 4 },
+		{ "obcina": "Hrastnik", "pm10": "", "so2": 17, "id": 5 },
+		{ "obcina": "Šoštanj", "pm10": "", "so2": 29, "id": 6 },
+		{ "obcina": "Slovenj Gradec", "pm10": "", "so2": 25, "id": 7 },
+		{ "obcina": "Ajdovščina", "pm10": "", "so2": 40, "id": 8 },
+		{ "obcina": "Krško", "pm10": "", "so2": 67, "id": 9 },
+		{ "obcina": "Ljubljana", "pm10": 65, "so2": 15, "id": 10 }
+	],
+	"1997-10":[
+		{ "obcina": "Trbovlje", "pm10": 52, "so2": 29, "id": 0 },
+		{ "obcina": "Zagorje ob Savi", "pm10": 52, "so2": 24, "id": 1 },
+		{ "obcina": "Velenje", "pm10": 47, "so2": 19, "id": 2 },
+		{ "obcina": "Maribor ", "pm10": 55, "so2": 22, "id": 3 },
+		{ "obcina": "Celje", "pm10": 45, "so2": 27, "id": 4 },
+		{ "obcina": "Hrastnik", "pm10": "", "so2": 18, "id": 5 },
+		{ "obcina": "Šoštanj", "pm10": "", "so2": 33, "id": 6 },
+		{ "obcina": "Slovenj Gradec", "pm10": "", "so2": 44, "id": 7 },
+		{ "obcina": "Ajdovščina", "pm10": "", "so2": 92, "id": 8 },
+		{ "obcina": "Krško", "pm10": "", "so2": 28, "id": 9 },
+		{ "obcina": "Ljubljana", "pm10": 51, "so2": 25, "id": 10 }
+	],
+	"1997-11":[
+		{ "obcina": "Trbovlje", "pm10": 65, "so2": 43, "id": 0 },
+		{ "obcina": "Zagorje ob Savi", "pm10": 85, "so2": 26, "id": 1 },
+		{ "obcina": "Velenje", "pm10": 49, "so2": 15, "id": 2 },
+		{ "obcina": "Maribor ", "pm10": 51, "so2": 24, "id": 3 },
+		{ "obcina": "Celje", "pm10": "", "so2": 33, "id": 4 },
+		{ "obcina": "Hrastnik", "pm10": "", "so2": 25, "id": 5 },
+		{ "obcina": "Šoštanj", "pm10": "", "so2": 44, "id": 6 },
+		{ "obcina": "Slovenj Gradec", "pm10": "", "so2": 28, "id": 7 },
+		{ "obcina": "Ajdovščina", "pm10": "", "so2": 39, "id": 8 },
+		{ "obcina": "Krško", "pm10": "", "so2": 42, "id": 9 },
+		{ "obcina": "Ljubljana", "pm10": 65, "so2": 23, "id": 10 }
+	],
+	"1997-12":[
+		{ "obcina": "Trbovlje", "pm10": 64, "so2": 57, "id": 0 },
+		{ "obcina": "Zagorje ob Savi", "pm10": 77, "so2": 23, "id": 1 },
+		{ "obcina": "Velenje", "pm10": 37, "so2": 15, "id": 2 },
+		{ "obcina": "Maribor ", "pm10": 63, "so2": 27, "id": 3 },
+		{ "obcina": "Celje", "pm10": 44, "so2": 37, "id": 4 },
+		{ "obcina": "Hrastnik", "pm10": "", "so2": 27, "id": 5 },
+		{ "obcina": "Šoštanj", "pm10": "", "so2": 6, "id": 6 },
+		{ "obcina": "Slovenj Gradec", "pm10": "", "so2": 23, "id": 7 },
+		{ "obcina": "Ajdovščina", "pm10": "", "so2": 50, "id": 8 },
+		{ "obcina": "Krško", "pm10": "", "so2": 32, "id": 9 },
+		{ "obcina": "Ljubljana", "pm10": 52, "so2": 31, "id": 10 }
+	]
+
   }
