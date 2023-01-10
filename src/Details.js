@@ -104,9 +104,6 @@ const Details = ({setPrimerjava, primerjava}) => {
 
                 <button className="izbrisi" onClick={izbrisi1}><DeleteIcon fontSize="large"></DeleteIcon></button>
             </div>
-            <p className="razlaga">
-                PM10 je prah, ki je prisoten v zraku v določenem obdobju. <br/> SO2 je žveplov dioksid, ki je prisoten v zraku v določenem obdobju.
-            </p>
         </div>
      );
 }

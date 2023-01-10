@@ -63,7 +63,7 @@
   flex-direction: column;
   background: #DFD3C3;
   border: solid #85586F;
-  height: 80%;
+  height: 99%;
   width: 45%;
   border-width: 2px;
   box-shadow: 3px 3px;
@@ -215,7 +215,7 @@ g:hover {
 .popup-content {
   margin: 20% 0% 0% 30%;
   background: #F8EDE3;
-  height: 30%;
+  height: 40%;
   width: 30%;
   padding: 5px;
   border: 5px solid #85586F;
