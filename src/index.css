@@ -239,32 +239,30 @@ g:hover {
 
 /* Legenda */
 .legdiv {
+  width: 10%;
   display: flex;
-  padding: 20px;
+  align-items: center;
+  padding: 20px 10px;
 }
 .legenda {
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(
-    0deg,
-    #BBF573,#F7EB77,#F7AB77,#F58076
-  );
-  width: 15px;
+  background: linear-gradient(0deg,#BBF573,#F7EB77,#F7AB77,#F58076);
+  width: 20px;
+  height: 80%;
   border: 2px solid lightgray;
   border-radius: 50px;
-  margin-right: 80px;
 }
-.zelo{
+
+.obleg{
+  height: 80%;
   display: flex;
-  padding-left: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.legtext{
+  padding-left: 10px;
   color: #F8EDE3;
-  margin-bottom: auto;
 }
-.malo{
-  display: flex;
-  align-self: flex-start;
-  padding-left: 20px;
-  margin-top: auto;
+.legtext sup{
   color: #F8EDE3;
 }
 

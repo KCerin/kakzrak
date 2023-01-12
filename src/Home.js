@@ -59,16 +59,20 @@ const Home = ({setPrimerjava, primerjava}) => {
             <div className='zgornji'> 
                 <Zemljevid slData={sl} setPrimerjava={setPrimerjava} primerjava={primerjava} ones={ones}/>
                 <div className='legdiv'>
-                    <div className='legenda'>
-                       <p className='zelo'>Zelo onesnaženo</p>
-                       <p className='malo'>Malo onesnaženo</p>
+                    <div className='legenda'></div>
+                    <div className="obleg">
+                        <p className='legtext'>160 µg/m<sup>3</sup></p>
+                        <p className='legtext'>120 µg/m<sup>3</sup></p>
+                        <p className='legtext'>80 µg/m<sup>3</sup></p>
+                        <p className='legtext'>40 µg/m<sup>3</sup></p>
+                        <p className='legtext'>0 µg/m<sup>3</sup></p>
                     </div>
                 </div>
             </div>
             <div className="spodnji">
                 <div className="drop">
                     <p className="naslov">Prikaz zemljevida:</p>
-                    <Dropdown className='dropdown' controlClassName='dropdown-control' menuClassName='dropdown-menu' options={options} onChange={(e) => updateMap(e)} value={defaultOption} placeholder="Select an option"/>
+                    <Dropdown className='dropdown' controlClassName='dropdown-control' menuClassName='dropdown-menu' options={options} onChange={(e) => updateMap(e)} value={defaultOption}/>
                 </div>
                 <div className='sliderji'> 
                     <div className="blog-list">
