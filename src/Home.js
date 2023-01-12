@@ -25,13 +25,14 @@ const Home = ({setPrimerjava, primerjava}) => {
         { value: 12, label: 'Dec' }];
 
     const marksL = [
-        { value: 1997, label: '1997' },
+        //{ value: 1997, label: '1997' },
         { value: 2000, label: '2000' },
         { value: 2005, label: '2005' },
         { value: 2010, label: '2010' },
         { value: 2015, label: '2015' },
-        { value: 2020, label: '2020' },
-        { value: 2021, label: '2021' }];
+        { value: 2020, label: '2020' }//,
+        //{ value: 2021, label: '2021' }
+    ];
 
     const updateLeto = (e, value) => {
         setSl([value, sl[1]]);
