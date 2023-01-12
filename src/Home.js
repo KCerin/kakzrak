@@ -6,7 +6,7 @@ import Zemljevid from './Zemljevid';
 
 const Home = ({setPrimerjava, primerjava}) => {
 
-    var [sl, setSl] = useState([1997, 1]);
+    var [sl, setSl] = useState([2021, 1]);
 
     const marksM = [
         { value: 1, label: 'Jan' },
@@ -29,7 +29,7 @@ const Home = ({setPrimerjava, primerjava}) => {
         { value: 2010, label: '2010' },
         { value: 2015, label: '2015' },
         { value: 2020, label: '2020' },
-        { value: 2022, label: '2022' }];
+        { value: 2021, label: '2021' }];
 
     const updateLeto = (e, value) => {
         setSl([value, sl[1]]);
@@ -54,7 +54,7 @@ const Home = ({setPrimerjava, primerjava}) => {
             </div>
             <div className='sliderji'> 
                 <div className="blog-list">
-                    <Slider id="slider0" min={1997} max={2022} defaultValue={1997} size="big" aria-label="Default" valueLabelDisplay="auto" marks={marksL} onChangeCommitted={updateLeto}/>
+                    <Slider id="slider0" min={1997} max={2021} defaultValue={2021} size="big" aria-label="Default" valueLabelDisplay="auto" marks={marksL} onChangeCommitted={updateLeto}/>
                     <Slider id="slider1" min={1} max={12} defaultValue={1} size="big" track={false} marks={marksM} onChangeCommitted={updateMesec}/>
                 </div>
             </div>
