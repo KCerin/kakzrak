@@ -1,5 +1,6 @@
 
 import Slider from '@mui/material/Slider';
+import Dropdown from 'react-dropdown';
 import { useState } from 'react';
 
 import Zemljevid from './Zemljevid';
@@ -7,6 +8,7 @@ import Zemljevid from './Zemljevid';
 const Home = ({setPrimerjava, primerjava}) => {
 
     var [sl, setSl] = useState([2021, 1]);
+    
 
     const marksM = [
         { value: 1, label: 'Jan' },
@@ -41,10 +43,21 @@ const Home = ({setPrimerjava, primerjava}) => {
         //console.log(sl);
     }
 
+    const options = [
+        'PM10', 'SO2'
+    ];
+    const defaultOption = options[0];
+
+    const [ones, setOnes] = useState(defaultOption)
+
+    const updateMap = (e) => {
+        setOnes(e.value);
+    }
+
     return ( 
         <div className="home">
             <div className='zgornji'> 
-                <Zemljevid slData={sl} setPrimerjava={setPrimerjava} primerjava={primerjava}/>
+                <Zemljevid slData={sl} setPrimerjava={setPrimerjava} primerjava={primerjava} ones={ones}/>
                 <div className='legdiv'>
                     <div className='legenda'>
                        <p className='zelo'>Zelo onesnaženo</p>
@@ -52,12 +65,19 @@ const Home = ({setPrimerjava, primerjava}) => {
                     </div>
                 </div>
             </div>
-            <div className='sliderji'> 
-                <div className="blog-list">
-                    <Slider id="slider0" min={1997} max={2021} defaultValue={2021} size="big" aria-label="Default" valueLabelDisplay="auto" marks={marksL} onChangeCommitted={updateLeto}/>
-                    <Slider id="slider1" min={1} max={12} defaultValue={1} size="big" track={false} marks={marksM} onChangeCommitted={updateMesec}/>
+            <div className="spodnji">
+                <div className="drop">
+                    <p className="naslov">Prikaz zemljevida:</p>
+                    <Dropdown className='dropdown' controlClassName='dropdown-control' menuClassName='dropdown-menu' options={options} onChange={(e) => updateMap(e)} value={defaultOption} placeholder="Select an option"/>
+                </div>
+                <div className='sliderji'> 
+                    <div className="blog-list">
+                        <Slider id="slider0" min={1997} max={2021} defaultValue={2021} size="big" aria-label="Default" valueLabelDisplay="auto" marks={marksL} onChangeCommitted={updateLeto}/>
+                        <Slider id="slider1" min={1} max={12} defaultValue={1} size="big" track={false} marks={marksM} onChangeCommitted={updateMesec}/>
+                    </div>
                 </div>
             </div>
+            
         </div>
      );
 }
