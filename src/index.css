@@ -36,7 +36,6 @@
   margin-left: auto;
 }
 
-
 .content {
   display: flex;
   padding: 20px 20px 0px 0px;
@@ -94,6 +93,13 @@
   box-shadow: 0 3px rgb(129, 113, 125);
   border: solid 2px #85586F;
   border-color: #85586F;
+}
+
+.prostorzasliko img {
+  border-radius: 0px;
+  height: 90%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .infowrap{
