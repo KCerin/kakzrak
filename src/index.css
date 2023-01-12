@@ -120,6 +120,7 @@
   box-shadow: 0 7px rgb(129, 113, 125);
   cursor:pointer;
   border-color: #85586F;
+  background-color: #F8EDE3;
 }
 .izbrisi:hover{
   background-color: #D0B8A8;
@@ -219,6 +220,9 @@ g:hover {
   width: 30%;
   padding: 5px;
   border: 5px solid #85586F;
+}
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
 }
 .popup-content h1{
   padding: 10px;

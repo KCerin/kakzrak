@@ -13,6 +13,7 @@ const Navbar = () => {
                 trigger={open => (
                     <InfoOutlinedIcon className='info'>Trigger - {open ? 'Opened' : 'Closed'}</InfoOutlinedIcon>
                 )}
+                closeOnEscape="true"
                 arrow="false"
                 offsetX="10px"
                 position="left center"
